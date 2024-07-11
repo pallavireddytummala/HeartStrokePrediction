@@ -55,7 +55,7 @@ def predictAction():
         heartdisease=hrtdis[heartdisease]
 
 
-        model=joblib.load(r"C:\Users\Dell\Desktop\HeartStrokePrediction\strokenew.pkl")
+        model=joblib.load(r"./strokenew.pkl")
 
         array = [[gender,age,hypertension,heartdisease,maritalstatus,worktype,residence,gluclevel,bmi,smoke]]
 
